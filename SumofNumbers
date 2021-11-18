@@ -1,0 +1,46 @@
+#include <stdio.h>
+#include <stdlib.h>
+#include <conio.h>
+
+void main()
+{
+    //finding the sum numbers;
+
+
+    instructions();
+   takingnum();
+}
+    instructions()
+    {
+
+
+    printf("sum of Numbers ,Only for u!\n\n");
+    }
+    takingnum()
+{
+int swit;
+
+    int i;
+    int sum;
+    int num1;
+    int num2;
+
+
+        printf("Enter Number here  for sum from : ");
+        scanf("%d",&num1);
+
+        printf("\n To : ");
+        scanf("%d",&num2);
+
+        for(i=num1;i<=num2;i++)
+
+            sum=sum+i;
+
+        printf("The sum of '%d' to '%d' is '%d'",num1,num2,sum);
+
+
+
+      }
+
+
+
